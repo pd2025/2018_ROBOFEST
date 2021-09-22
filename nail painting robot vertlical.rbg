@@ -1,0 +1,198 @@
+<Version>1.0.1</Version>
+
+<ProgrammingBlock type="loop" loopType="RepeatForever"/>
+
+<ProgrammingBlock type="loop" loopType="IfOnly">
+    <Parameters>
+        <Parameter name="LHS" type="typedef">getBumperValue(bumpSwitch8)</Parameter>
+        <Parameter name="operator" type="typedef">==</Parameter>
+        <Parameter name="RHS" type="bool" typeDef="bool">true</Parameter>
+    </Parameters>
+</ProgrammingBlock>
+
+<ProgrammingBlock type="functionCall" function="moveMotor">
+    <Parameters>
+        <Parameter name="motorPort" type="base typedef" default="motor10" typeDef="tMotor">motor1</Parameter>
+        <Parameter name="quantity" type="float" default="1">0.25</Parameter>
+        <Parameter name="unitType" type="base typedef" default="rotations" typeDef="tMovementUnits">rotations</Parameter>
+        <Parameter name="speed" type="short" default="50">50</Parameter>
+    </Parameters>
+</ProgrammingBlock>
+
+<ProgrammingBlock type="functionCall" function="moveMotor">
+    <Parameters>
+        <Parameter name="motorPort" type="base typedef" default="motor10" typeDef="tMotor">motor1</Parameter>
+        <Parameter name="quantity" type="float" default="1">0.25</Parameter>
+        <Parameter name="unitType" type="base typedef" default="rotations" typeDef="tMovementUnits">rotations</Parameter>
+        <Parameter name="speed" type="short" default="50">-50</Parameter>
+    </Parameters>
+</ProgrammingBlock>
+
+<ProgrammingBlock type="end"/>
+
+<ProgrammingBlock type="loop" loopType="IfOnly">
+    <Parameters>
+        <Parameter name="LHS" type="typedef">getBumperValue(bumpSwitch9)</Parameter>
+        <Parameter name="operator" type="typedef">==</Parameter>
+        <Parameter name="RHS" type="bool" typeDef="bool">true</Parameter>
+    </Parameters>
+</ProgrammingBlock>
+
+<ProgrammingBlock type="functionCall" function="moveMotor">
+    <Parameters>
+        <Parameter name="motorPort" type="base typedef" default="motor10" typeDef="tMotor">motor2</Parameter>
+        <Parameter name="quantity" type="float" default="1">.25</Parameter>
+        <Parameter name="unitType" type="base typedef" default="rotations" typeDef="tMovementUnits">rotations</Parameter>
+        <Parameter name="speed" type="short" default="50">50</Parameter>
+    </Parameters>
+</ProgrammingBlock>
+
+<ProgrammingBlock type="functionCall" function="moveMotor">
+    <Parameters>
+        <Parameter name="motorPort" type="base typedef" default="motor10" typeDef="tMotor">motor2</Parameter>
+        <Parameter name="quantity" type="float" default="1">.25</Parameter>
+        <Parameter name="unitType" type="base typedef" default="rotations" typeDef="tMovementUnits">rotations</Parameter>
+        <Parameter name="speed" type="short" default="50">-50</Parameter>
+    </Parameters>
+</ProgrammingBlock>
+
+<ProgrammingBlock type="end"/>
+
+<ProgrammingBlock type="loop" loopType="IfOnly">
+    <Parameters>
+        <Parameter name="LHS" type="typedef">getBumperValue(bumpSwithch10)</Parameter>
+        <Parameter name="operator" type="typedef">==</Parameter>
+        <Parameter name="RHS" type="bool" typeDef="bool">true</Parameter>
+    </Parameters>
+</ProgrammingBlock>
+
+<ProgrammingBlock type="functionCall" function="moveMotor">
+    <Parameters>
+        <Parameter name="motorPort" type="base typedef" default="motor10" typeDef="tMotor">motor3</Parameter>
+        <Parameter name="quantity" type="float" default="1">.25</Parameter>
+        <Parameter name="unitType" type="base typedef" default="rotations" typeDef="tMovementUnits">rotations</Parameter>
+        <Parameter name="speed" type="short" default="50">50</Parameter>
+    </Parameters>
+</ProgrammingBlock>
+
+<ProgrammingBlock type="functionCall" function="moveMotor">
+    <Parameters>
+        <Parameter name="motorPort" type="base typedef" default="motor10" typeDef="tMotor">motor3</Parameter>
+        <Parameter name="quantity" type="float" default="1">.25</Parameter>
+        <Parameter name="unitType" type="base typedef" default="rotations" typeDef="tMovementUnits">rotations</Parameter>
+        <Parameter name="speed" type="short" default="50">-50</Parameter>
+    </Parameters>
+</ProgrammingBlock>
+
+<ProgrammingBlock type="end"/>
+
+<ProgrammingBlock type="loop" loopType="IfOnly">
+    <Parameters>
+        <Parameter name="LHS" type="typedef">getBumperValue(bumpSwitch11)</Parameter>
+        <Parameter name="operator" type="typedef">==</Parameter>
+        <Parameter name="RHS" type="bool" typeDef="bool">true</Parameter>
+    </Parameters>
+</ProgrammingBlock>
+
+<ProgrammingBlock type="functionCall" function="moveMotor">
+    <Parameters>
+        <Parameter name="motorPort" type="base typedef" default="motor10" typeDef="tMotor">motor4</Parameter>
+        <Parameter name="quantity" type="float" default="1">.25</Parameter>
+        <Parameter name="unitType" type="base typedef" default="rotations" typeDef="tMovementUnits">rotations</Parameter>
+        <Parameter name="speed" type="short" default="50">50</Parameter>
+    </Parameters>
+</ProgrammingBlock>
+
+<ProgrammingBlock type="functionCall" function="moveMotor">
+    <Parameters>
+        <Parameter name="motorPort" type="base typedef" default="motor10" typeDef="tMotor">motor4</Parameter>
+        <Parameter name="quantity" type="float" default="1">.25</Parameter>
+        <Parameter name="unitType" type="base typedef" default="rotations" typeDef="tMovementUnits">rotations</Parameter>
+        <Parameter name="speed" type="short" default="50">-50</Parameter>
+    </Parameters>
+</ProgrammingBlock>
+
+<ProgrammingBlock type="end"/>
+
+<ProgrammingBlock type="loop" loopType="IfOnly">
+    <Parameters>
+        <Parameter name="LHS" type="typedef">getBumperValue(bumpSwitch12)</Parameter>
+        <Parameter name="operator" type="typedef">==</Parameter>
+        <Parameter name="RHS" type="bool" typeDef="bool">true</Parameter>
+    </Parameters>
+</ProgrammingBlock>
+
+<ProgrammingBlock type="functionCall" function="moveMotor">
+    <Parameters>
+        <Parameter name="motorPort" type="base typedef" default="motor10" typeDef="tMotor">motor5</Parameter>
+        <Parameter name="quantity" type="float" default="1">.25</Parameter>
+        <Parameter name="unitType" type="base typedef" default="rotations" typeDef="tMovementUnits">rotations</Parameter>
+        <Parameter name="speed" type="short" default="50">50</Parameter>
+    </Parameters>
+</ProgrammingBlock>
+
+<ProgrammingBlock type="functionCall" function="moveMotor">
+    <Parameters>
+        <Parameter name="motorPort" type="base typedef" default="motor10" typeDef="tMotor">motor5</Parameter>
+        <Parameter name="quantity" type="float" default="1">.25</Parameter>
+        <Parameter name="unitType" type="base typedef" default="rotations" typeDef="tMovementUnits">rotations</Parameter>
+        <Parameter name="speed" type="short" default="50">-50</Parameter>
+    </Parameters>
+</ProgrammingBlock>
+
+<ProgrammingBlock type="end"/>
+
+<ProgrammingBlock type="end"/>
+
+<RobotConfiguration>#pragma config(Sensor, port8,  bumpSwitch8,    sensorVexIQ_Touch)
+#pragma config(Sensor, port9,  bumpSwitch9,    sensorVexIQ_Touch)
+#pragma config(Sensor, port10, bumpSwithch10,  sensorVexIQ_Touch)
+#pragma config(Sensor, port11, bumpSwitch11,   sensorVexIQ_Touch)
+#pragma config(Sensor, port12, bumpSwitch12,   sensorVexIQ_Touch)
+#pragma config(Motor,  motor1,           ,             tmotorVexIQ, PIDControl, encoder)
+#pragma config(Motor,  motor2,           ,             tmotorVexIQ, PIDControl, encoder)
+#pragma config(Motor,  motor3,           ,             tmotorVexIQ, PIDControl, encoder)
+#pragma config(Motor,  motor4,           ,             tmotorVexIQ, PIDControl, encoder)
+#pragma config(Motor,  motor5,           ,             tmotorVexIQ, PIDControl, encoder)
+//*!!Code automatically generated by 'ROBOTC' configuration wizard               !!*//
+</RobotConfiguration>
+
+<CSource>#pragma config(Sensor, port8,  bumpSwitch8,    sensorVexIQ_Touch)
+#pragma config(Sensor, port9,  bumpSwitch9,    sensorVexIQ_Touch)
+#pragma config(Sensor, port10, bumpSwithch10,  sensorVexIQ_Touch)
+#pragma config(Sensor, port11, bumpSwitch11,   sensorVexIQ_Touch)
+#pragma config(Sensor, port12, bumpSwitch12,   sensorVexIQ_Touch)
+#pragma config(Motor,  motor1,           ,             tmotorVexIQ, PIDControl, encoder)
+#pragma config(Motor,  motor2,           ,             tmotorVexIQ, PIDControl, encoder)
+#pragma config(Motor,  motor3,           ,             tmotorVexIQ, PIDControl, encoder)
+#pragma config(Motor,  motor4,           ,             tmotorVexIQ, PIDControl, encoder)
+#pragma config(Motor,  motor5,           ,             tmotorVexIQ, PIDControl, encoder)
+//*!!Code automatically generated by 'ROBOTC' configuration wizard               !!*//
+
+
+task main()
+{
+	repeat (forever) {
+		if (getBumperValue(bumpSwitch8) == true) {
+			moveMotor(motor1, 0.25, rotations, 50);
+			moveMotor(motor1, 0.25, rotations, -50);
+		}
+		if (getBumperValue(bumpSwitch9) == true) {
+			moveMotor(motor2, .25, rotations, 50);
+			moveMotor(motor2, .25, rotations, -50);
+		}
+		if (getBumperValue(bumpSwithch10) == true) {
+			moveMotor(motor3, .25, rotations, 50);
+			moveMotor(motor3, .25, rotations, -50);
+		}
+		if (getBumperValue(bumpSwitch11) == true) {
+			moveMotor(motor4, .25, rotations, 50);
+			moveMotor(motor4, .25, rotations, -50);
+		}
+		if (getBumperValue(bumpSwitch12) == true) {
+			moveMotor(motor5, .25, rotations, 50);
+			moveMotor(motor5, .25, rotations, -50);
+		}
+	}
+}
+</CSource>
