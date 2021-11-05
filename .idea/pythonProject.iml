@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/venv" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="SMTP_practice" />
+    <orderEntry type="module" module-name="2017 VEXIQ" />
+    <orderEntry type="module" module-name="2018 ROBOFEST" />
+    <orderEntry type="module" module-name="Arduino" />
+    <orderEntry type="module" module-name="Microbit" />
+    <orderEntry type="module" module-name="PyCharm" />
+  </component>
+</module>

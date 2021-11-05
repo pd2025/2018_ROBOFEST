@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://D:/2017 VEXIQ/.idea/2017 VEXIQ.iml" filepath="D:/2017 VEXIQ/.idea/2017 VEXIQ.iml" />
+      <module fileurl="file://D:/2018 ROBOFEST/.idea/2018 ROBOFEST.iml" filepath="D:/2018 ROBOFEST/.idea/2018 ROBOFEST.iml" />
+      <module fileurl="file://D:/Arduino/.idea/Arduino.iml" filepath="D:/Arduino/.idea/Arduino.iml" />
+      <module fileurl="file://D:/Microbit/.idea/Microbit.iml" filepath="D:/Microbit/.idea/Microbit.iml" />
+      <module fileurl="file://D:/PyCharm/.idea/PyCharm.iml" filepath="D:/PyCharm/.idea/PyCharm.iml" />
+      <module fileurl="file://D:/PyCharm/SMTP_practice/.idea/SMTP_practice.iml" filepath="D:/PyCharm/SMTP_practice/.idea/SMTP_practice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/pythonProject.iml" filepath="$PROJECT_DIR$/.idea/pythonProject.iml" />
+    </modules>
+  </component>
+</project>
